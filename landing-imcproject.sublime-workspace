@@ -4,19 +4,51 @@
 		"selected_items":
 		[
 			[
-				"li",
-				"line-height"
+				"b",
+				"block"
+			],
+			[
+				"margin",
+				"margin-left"
 			],
 			[
 				"font",
 				"font-size"
 			],
 			[
-				"tex",
-				"text-invite"
+				"padd",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ske",
+				"skew-skin"
+			],
+			[
+				"paddin",
+				"padding-bottom"
 			],
 			[
 				"text",
+				"text-transform"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"tex",
 				"text-invite"
 			],
 			[
@@ -24,20 +56,8 @@
 				"skew-recomend"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
 				"backgro",
 				"background-size"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"background",
@@ -148,10 +168,6 @@
 				"videos-ctrl"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"fi",
 				"figure"
 			],
@@ -210,10 +226,6 @@
 			[
 				"borde",
 				"border"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"tr",
@@ -364,10 +376,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "sobrepeso.html",
 			"settings":
 			{
-				"buffer_size": 6134,
+				"buffer_size": 17738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "obesidad.html",
+			"settings":
+			{
+				"buffer_size": 17677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "normopeso.html",
+			"settings":
+			{
+				"buffer_size": 17191,
 				"line_ending": "Unix"
 			}
 		},
@@ -375,7 +403,7 @@
 			"file": "bajopeso.html",
 			"settings":
 			{
-				"buffer_size": 8403,
+				"buffer_size": 17607,
 				"line_ending": "Unix"
 			}
 		},
@@ -383,7 +411,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 10405,
+				"buffer_size": 18220,
 				"line_ending": "Unix"
 			}
 		}
@@ -412,6 +440,9 @@
 	},
 	"file_history":
 	[
+		"/Users/upmedia/GitHub/Landing IMC/obesidad.html",
+		"/Users/upmedia/GitHub/Landing IMC/index.php",
+		"/Users/upmedia/GitHub/Landing IMC/bajopeso.html",
 		"/Users/upmedia/GitHub/Landing IMC/_index.php",
 		"/Volumes/ipchile/repo_cambios_ipchile/cambios_20150714/wp-content/themes/ipchile_2013/header.php",
 		"/Users/upmedia/GitHub/IMC/index.html",
@@ -536,10 +567,7 @@
 		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/taxonomy-skill.php",
 		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/options-custom.js",
 		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/single.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/page.php",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/tbk_config.dat",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/TBK_EVN20130730.log",
-		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/cierrewebpay.php"
+		"/private/var/folders/qt/8cc7xcts4cjccztx7wylwbjh0000gn/T/fz3temp-1/page.php"
 	],
 	"find":
 	{
@@ -559,6 +587,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"revisa",
 			".logo-banmedicalanding",
 			"loader",
 			"30px",
@@ -685,8 +714,7 @@
 			"input[type=text], input.input-text, textarea, input.txt, input[type=tel], input[type=email]",
 			"#header .nav-toggle",
 			"ul.products li.product img",
-			"navigation",
-			"wrapper"
+			"navigation"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -704,55 +732,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "sobrepeso.html",
 					"settings":
 					{
-						"buffer_size": 6134,
+						"buffer_size": 17738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								6134
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bajopeso.html",
-					"settings":
-					{
-						"buffer_size": 8403,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7176,
-								7176
+								11447,
+								11447
 							]
 						],
 						"settings":
@@ -765,7 +761,100 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2055.0,
+						"translation.y": 3519.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "obesidad.html",
+					"settings":
+					{
+						"buffer_size": 17677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "normopeso.html",
+					"settings":
+					{
+						"buffer_size": 17191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bajopeso.html",
+					"settings":
+					{
+						"buffer_size": 17607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -777,19 +866,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 10405,
+						"buffer_size": 18220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7346,
-								7346
+								6012,
+								6012
 							]
 						],
 						"settings":
@@ -803,7 +892,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2381.0,
+						"translation.y": 1873.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -839,7 +928,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.497870559115,
 			1.0
 		],
 		"rows":

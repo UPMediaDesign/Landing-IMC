@@ -39,10 +39,10 @@ html[xmlns] .clearfix {
 .right, .der{float:right;}
 .clear{ clear:both}
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);*/
 
-h1, h2, h3, h4, h5 , h6{ font-family: PT sans ,  'Helvetica Neue', arial , sans-serif; letter-spacing:-1px;}
+h1, h2, h3, h4, h5 , h6{ font-family: 'latoregular', arial , sans-serif; letter-spacing:-1px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{ color: #333; text-decoration:none; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color: #A9272D; text-decoration:none; }
 
@@ -75,7 +75,62 @@ h6{ letter-spacing:0px; font-weight:400}
 .alignright { display: inline; float: right; margin-left: 15px !important}
 .aligncenter {	clear: both; display: block; margin-left: auto;	margin-right: auto; }
 
-body{}
+/******************************************************************************
+Fuentes *******************************************************************
+*******************************************************************************/
+@font-face {
+    font-family: 'latoblack';
+    src: url('fonts/lato-bla-webfont.eot');
+    src: url('fonts/lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-bla-webfont.woff2') format('woff2'),
+         url('fonts/lato-bla-webfont.woff') format('woff'),
+         url('fonts/lato-bla-webfont.ttf') format('truetype'),
+         url('fonts/lato-bla-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bol-webfont.eot');
+    src: url('fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-bol-webfont.woff2') format('woff2'),
+         url('fonts/lato-bol-webfont.woff') format('woff'),
+         url('fonts/lato-bol-webfont.ttf') format('truetype'),
+         url('fonts/lato-bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-lig-webfont.eot');
+    src: url('fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-lig-webfont.woff2') format('woff2'),
+         url('fonts/lato-lig-webfont.woff') format('woff'),
+         url('fonts/lato-lig-webfont.ttf') format('truetype'),
+         url('fonts/lato-lig-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-reg-webfont.eot');
+    src: url('fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-reg-webfont.woff2') format('woff2'),
+         url('fonts/lato-reg-webfont.woff') format('woff'),
+         url('fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: 'latoregular'}
 
 strong , b{ font-weight:900; font-family: lato, helvetica, arial, sans-serif;}
 em , i{font-style:italic;}
@@ -88,10 +143,10 @@ p { font-family: pt sans, helvetica, arial, sans-serif; }
 .divider{ border-top:1px solid #A9272D}
 .border { border-bottom: 1px solid #ccc; padding: 5px 0 0 0; margin-bottom: 5px;}
 
-.logo-banmedica10landing{ padding:30px 30px 0 0;}
-.logo-packlanding{padding: 30px 0 0 30px;}
+.logo-banmedica10landing{ padding:30px 60px 0 0;}
+.logo-packlanding{padding: 30px 0 0 60px;}
 
-.heart img{max-width:330px; width:100%; height:auto; padding-top: 50px;}
+.heart img{max-width:290px; width:100%; height:auto; padding-top: 50px;}
 
 #blue-gradient{background: rgba(11,149,208,1);
 background: -moz-radial-gradient(center, ellipse cover, rgba(11,149,208,1) 0%, rgba(11,141,201,1) 23%, rgba(11,81,147,1) 99%, rgba(11,81,147,1) 100%);
@@ -100,48 +155,56 @@ background: -webkit-radial-gradient(center, ellipse cover, rgba(11,149,208,1) 0%
 background: -o-radial-gradient(center, ellipse cover, rgba(11,149,208,1) 0%, rgba(11,141,201,1) 23%, rgba(11,81,147,1) 99%, rgba(11,81,147,1) 100%);
 background: -ms-radial-gradient(center, ellipse cover, rgba(11,149,208,1) 0%, rgba(11,141,201,1) 23%, rgba(11,81,147,1) 99%, rgba(11,81,147,1) 100%);}
 
-#blue-gradient .content-greeting{ padding:90px 0 150px 0}
+#blue-gradient .content-greeting{ padding: 80px 0 120px 0;}
 
-#blue-gradient span{  color: #238cb4; background-color: #fff; padding: 10px; display: inline-block; margin-bottom: 5px; font-size: 55px; line-height: 100%; font-family: lato , helvetica, arial, sans-serif; font-weight:lighter; text-transform: uppercase;}
+#blue-gradient span{  color: #238cb4; background-color: #fff; padding: 10px; display: inline-block; margin-bottom: 5px; font-size: 45px; line-height: 100%; font-family: lato , helvetica, arial, sans-serif; font-weight:lighter; text-transform: uppercase;}
 
 #blue-gradient span.regular{font-weight: normal;}
   
-#blue-gradient span strong{font-family: lato, helvetica, arial, sans-serif; font-weight:900; font-weight: bolder;}
+#blue-gradient span strong{font-family: 'latoregular', helvetica, arial, sans-serif; font-weight:900; font-weight: bolder;}
 
-.skew-recomend{font-family: lato, helvetica, arial, sans-serif; background: #ebebeb;padding-bottom:30px; border-bottom: 20px solid #cdcdcd; }
-.skew-recomend h3{  color: #238cb4; text-align: center; padding: 30px 0 40px; font-size: 25px; letter-spacing: 1px;
-}
+.skew-recomend{font-family: 'latoregular', helvetica, arial, sans-serif; background: #ebebeb;padding-bottom:40px; border-bottom: 5px solid #cdcdcd; }
+.skew-recomend h3{  color: #238cb4; text-align: center; padding: 20px 0 30px; font-size: 25px; letter-spacing: 1px; margin-top:0; line-height: 140%;}
 .skew-recomend ul{margin: 20px 0 65px;}
-.skew-recomend li{color:#238cb4; line-height: 150%; text-align: left; font-size: 16px; margin-bottom: 25px; list-style: none;}
-.skew-recomend li img{float: left; clear: both;padding: 0px 10px 25px;}
+.skew-recomend li{color:#238cb4; line-height: 150%; text-align: left; font-size: 14px; margin-bottom: 25px; list-style: none;}
+.skew-recomend li img{float: left; clear: both;padding: 0px 10px 35px;}
+
+.medical-dispose.graph img{max-width:360px; width:100%; height:auto;}
 
 /* Contenido Central */
-.skew-skin{background:url(images/skewed-pant.png); background-size: cover; font-family: lato; color:#fff;}
-.skew-skin .container{padding-bottom: 40px;}
-.skew-skin h2{font-size:35px; color:#3d6073; background:#fff ; font-weight: bolder; padding: 5px; width: 25%; letter-spacing: 1px; margin-top: 50px; margin-bottom: 35px; float:left; display:block;}
+.skew-skin{background:url(images/skewed-pant.png); background-size: cover; font-family: 'latoregular'; color:#fff; padding-bottom: 30px;}
+.skew-skin.sobrepeso, .skew-skin.obesidad, .skew-skin.normopeso{background: rgb(28, 97, 116) !important; padding-bottom: 50px;}
+/*.skew-skin.normopeso h2{width:25%;}*/
+.skew-skin.container{padding-bottom: 40px;}
+.skew-skin h2{font-size:35px; color:#3d6073; background:#fff ;font-family: 'latobold'; padding: 5px;  letter-spacing: 1px; margin-top: 50px; margin-bottom: 35px; float:left; display:inline-block;}
+/*.skew-skin.sobrepeso h2{width:21%;}
+.skew-skin.obesidad h2 {width: 18%; }*/
 .skew-skin span{font-size: 32px; color:#fff; float:left; display:block; margin-top: 50px;
   margin-bottom: 35px; margin-left: 15px; letter-spacing: 1px;}
-.skew-skin p{color:#fff; text-align: left; line-height:160%; font-weight:normal; font-size:19px;}
+.skew-skin p{color:#fff; text-align: left; line-height:160%; font-weight:normal; font-size:17px;}
 .skew-skin p strong{border-radius:50%; color:#3d6073; background:#fff; padding: 1px 8px;
-  margin-right: 2px;}
+  margin-right: 2px; margin-bottom: 0;}
 
 
 
-.non-whited p{color:#fff; line-height:150%; font-size: 19px; padding-top: 5px;}
-.whited p{background: #fff; color: #3d6073; line-height: 150%; font-size: 19px; padding: 3px 7px; width: 40%; font-weight: 600;}
+.col-md-4.col-sm-4.col-xs-4.non-whited{padding-left: 0px !important}
+.non-whited p{color:#fff; line-height:150%; font-size: 17px; padding-top: 5px; padding-left: 0 !important;}
+.whited p{  background: #fff; color: #3d6073; line-height: 150%; font-size: 17px; padding: 3px 7px; font-weight: 600; display: block; clear: both !important; float: left;}
 
 
-.skew-food{background:url(images/skewed-food.png); background-size: cover; font-family: lato; color:#fff; padding-bottom: 120px;
-}
-.skew-food h2{font-size:55px; color:#fff; background:#3d6073 ; font-weight: 600; padding: 5px; letter-spacing: 2px; padding-bottom:5px; margin-top: 50px; margin-bottom: 10px; text-align: left; text-transform: uppercase;}
-.skew-food p{font-size:20px; font-weight: bolder; text-align: left; line-height: 140%; color:#fff;margin-top:15px; margin-bottom: 20px;}
+.skew-food{background:url(images/skewed-food.png)#058366; background-size: 215vh; font-family: 'latoregular'; color: #fff; padding-bottom: 90px; background-position: 50% 0; background-repeat: no-repeat; }
+.skew-food.sobrepeso{background:url(images/skewed-foodsobrepeso.png)#058366; background-size: 215vh; font-family: 'latoregular'; color: #fff; padding-bottom: 120px; background-position: 50% 0; background-repeat: no-repeat;}
+.skew-food.obesidad{background:url(images/skewed-foodobesidad_.png)#058366; background-size: 215vh; font-family: 'latoregular'; color: #fff; padding-bottom: 120px; background-position: 50% 0; background-repeat: no-repeat;}
+.skew-food h2{font-size:45px; color:#fff; background:#3d6073 ; font-weight: 600; padding: 5px; letter-spacing: 2px; padding-bottom:5px; margin-top: 50px; margin-bottom: 10px; text-align: left; text-transform: uppercase;}
+.skew-food.normopeso h2{font-size: 40px;}
+.skew-food p{font-size:17px; font-family: 'latobold'; text-align: left; line-height: 140%; color:#fff;margin-top:15px; margin-bottom: 20px;}
 
 .recomend{margin-bottom: 40px;}
 
 .iconarea a{margin:10px 0 20px;}
 
 button[type="button"].cta,
-.cta a{border-radius: 45px; background: #33d0b4 url("images/arrowcta.png"); padding: 10px 55px 10px 25px; color: #fff; font-weight: bold; text-transform: uppercase; font-size: 18px; text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; transition: all .2s ease-in-out; background-position: 90%; background-repeat: no-repeat; background-size: 25px; border:none;}
+.cta a{border-radius: 45px; background: #33d0b4 url("images/arrowcta.png"); padding: 10px 55px 10px 25px; color: #fff; font-weight: bold; text-transform: uppercase; font-size: 15px; text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; transition: all .2s ease-in-out; background-position: 90%; background-repeat: no-repeat; background-size: 25px; border:none;}
 button[type="button"].cta:hover,
 .cta a:hover{background: #2AAB94 url("images/arrowcta.png"); color: #ffffff !important; background-position: 90%; background-repeat: no-repeat; background-size: 25px; text-decoration: none; border:none;}
 button[type="button"].cta:focus,
@@ -154,19 +217,57 @@ button[type="button"].cta:focus,
 .iconarea img{display: block; margin: 0 auto;}
 .iconarea span{text-align: center; color:#fff; font-family: lato, helvetica, arial , sans-serif; clear:both; display:block;}
 
-.text-invite{background:#f2f2f2; font-family:lato, helvetica, arial , sans-serif; font-size: 40px; }
-.text-invite h2{text-align: center; color:#238cb4; font-size:40px ;letter-spacing:1px; font-weight: normal;}
-.text-invite p{color:#636363; font-size: 20px; text-align: center; line-height: 160%; padding:0 35px;}
+.text-invite{background:#f2f2f2; font-family:lato, helvetica, arial , sans-serif; font-size: 40px; padding-bottom: 65px; }
+.text-invite h2{text-align: center; color:#238cb4; font-size:35px ;letter-spacing:1px; font-weight: normal; margin-top: 50px}
+.text-invite p{color:#636363; font-size: 16px; text-align: center; line-height: 160%; padding:0 35px; margin-bottom: 35px;}
 .text-invite.cta{text-align: center; margin: 0 auto; display: block;}
 
 
+/* ESTILO PARA VENTANA MODAL */
+button.close {background: #82ceb4; border-radius: 50%; color: #fff; width: 50px; height: 50px; position: absolute; font-size: 40px; right: -20px; top: -20px; }
+.col-md-5.modal-insider{margin-left:5%;}
+.close {text-shadow: none; opacity: 1; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
+.close:hover, .close:focus{color:#fff;}
+.modal-header {border: 0 !important; background-color: #fff; padding: 50px; }
+h4.modal-title{background:#fff; text-align: center; background:#238cb4; font-size: 55px; text-transform: uppercase; font-family: 'latobold'; color:#fff;}
+.modal-content {border-radius: 0px !important; box-shadow: none !important; border: none !important; -webkit-box-shadow: none !important; }
+.modal-insider h3{text-align: left; font-family: 'latolight'; font-size: 20px; line-height:1.4em; padding-bottom: 0px; float: left; width: 84%; margin-top: 0; padding-top: 0; letter-spacing: 0.5px;}
+.modal-insider span{background-color: #61c7ec; width: 40px; height: 40px; border-radius: 50%; padding: 5px 15px; float: left; color: #fff; font-size: 20px; margin-right: 10px; margin-right: 10px; position: absolute; left: -30px;}
+.modal-insider p{color:#636363; font-size: 15px; font-family: 'latoregular'; line-height: 1.6em}
+.modal-insider p strong{color:#61c7ec; font-size: 18px; font-family: 'latobold'; line-height:1.4em;}
 
-#middle{ background-color:#fff;}
 
-#middle:before { border-top: 100px solid #fff; content: ''; display: block; transform: skewY(2deg); height: 1px; margin-top: 0px; top: -40px; position: relative;   margin-bottom: -60px; }
-
-#middle:after { border-top: 100px solid #fff; content: ''; display: block; transform: skewY(-2deg); height: 1px; position: relative; bottom: -40px; margin-top: -100px;
-
+section.anti-arrow {
+  background-color: #ebebeb;
+}
+section.anti-arrow:before {
+  content: '';
+  background-color: #ebebeb;
+  border-bottom: 70px solid #ebebeb;
+  transform: skewY(-5deg);
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  display: block;
+  width: 50%;
+  position: relative;
+  top: -30px;
+  float: right;
+}
+section.anti-arrow:after {
+  content: '';
+  background-color: #ebebeb;
+  border-bottom: 70px solid #ebebeb;
+  transform: skewY(5deg);
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  display: block;
+  width: 50%;
+  position: relative;
+  top: -30px;
 }
 
 .intra{background-color: #00a5d5; padding: 50px; color: #fff; font-size: 25px;}
@@ -192,14 +293,22 @@ main .examenes li:before { content: '●'; display: inline; font-size: 80px; col
 
 
 
-footer{ border-top:5px solid #8db94a; background-color: #fff; text-align:center; font-size:25px; color:#8db94a; font-family:pt sans, helvetica, arial , sans-serif; padding:100px 0}
+footer{padding:20px 0}
 footer a{ color:#337ab7}
+
+/*@media screen and(min-width: 1369px){
+  .skew-food,
+  .skew-food.sobrepeso,
+  .skew-food.obesidad {background-size: 180vh; background-repeat: no-repeat; background-position: 50% 50%;}
+}*/
 
 @media screen and (min-width: 1400px){
 header { width: 1170px; margin: 0 auto; }
 }
 
-@media screen and (min-width: 1200px){ }
+@media screen and (min-width: 1200px){
+  .container {width: 1024px; }
+}
 
 @media (max-width:1199px) and (min-width: 992px){ 
 #say-hi { background-size: auto 100%; }
@@ -217,16 +326,33 @@ header{ background-color:#fff;}
 
 #megacta .big { font-size: 50px;   padding-top: 15px;}
 
+.whited p{width:60%;}
+
 }
 
 @media (max-width:767px){ 
 
-.logo-packlanding , .logo-banmedica10landing{ width:50%}
-header{ background-color:#fff;}
-.logo-banmedica10landing {
-  padding: 20px 10px 0 40px;
-}
+.heart.col-md-4.col-lg-4.col-sm-4.col-xs-4 {margin-top: 120px; margin-left: 10px; }
 
+.logo-packlanding , .logo-banmedica10landing{ width:50%; padding-left: 15px;}
+header{ background-color:transparent; position:absolute;     z-index: 99;}
+.logo-banmedica10landing {padding: 40px 10px 0 40px; }
+.heart img{margin: 120px auto 0; display: block; width: 50%;}
+#blue-gradient .content-greeting {padding: 20px 15px 40px; }
+#blue-gradient span{font-size: 50px;}
+
+.skew-food h2, .blueborder{  margin-left: 15px; margin-right: 15px; font-size: 40px;}
+.skew-recomend li img {padding: 20px 10px 50px;}
+
+.skew-skin h2, .skew-skin.sobrepeso h2, .skew-skin.obesidad h2{margin-bottom: 0; width:61%;}
+
+.skew-skin span{margin-top: 10px; margin-left: 0; clear:both;}
+.skew-skin.normopeso h2 {width: 60%; }
+
+button[type="button"].cta{margin:0 auto; display: block;}
+
+.whited p{width:77%;}
+.skew-recomend h3{padding-top:0px;}
 #say-hi span {
   font-size: 20px; 
   background-color:rgba(111, 161, 139 , .7);
@@ -259,4 +385,27 @@ header{ background-color:#fff;}
 footer{  font-size: 20px;}
 
 }
+
+/******* ESTILOS RELACIONADOS AL FOOTER *******/
+.pinkfoot{background: #39b5e4;}
+.pinkfoot ul{list-style: none; margin-top:20px;}
+.pinkfoot li.tupp{text-transform: uppercase; color: #ffffff; font-family: 'helveticaNeue', helvetica, arial, sans-serif; font-weight: bold; margin-bottom: 25px; margin-top:0; text-align: left}
+.pinkfoot li{margin:5px 0 ;}
+.pinkfoot li a{color: #ffffff; font-size: 14px; line-height: 140%; text-decoration: none; font-weight: lighter; letter-spacing:1px;}
+.pinkfoot li a:hover{color:#227A9B;}
+.credits span{text-transform: uppercase; color: #ffffff; font-family: 'helveticaNeue', helvetica, arial, sans-serif; font-weight: bold; margin-bottom: 15px; float: left; margin-top: 20px;}
+.credits a{float: left; clear: both;}
+.credits p{clear: both; font-family: 'helveticaNeue', helvetica, arial, sans-serif; color: #ffffff; font-weight: lighter; text-align: left; padding-right: 20%; line-height: 160%;}
+
+/* Relacionado al formulario */
+.mailsender h5{text-transform: uppercase; color: #ffffff; font-family: 'helveticaNeue', helvetica, arial, sans-serif; font-weight: bold; margin-bottom: 15px; float: left; margin-top: 20px;}
+.mailsender form[method="post"]{margin-top:30px;width: 100%; max-width: 350px;}
+.mailsender input[type="email"]{width: 82%; height: 40px; padding: 8px; float: left; color:#525252; font-weight:300}
+.mailsender input[type="submit"]{width: 45px; height: 40px; float: left; background: #187cbc url("images/sendmail-icon.png"); border: none; background-repeat: no-repeat; background-position: 50%; cursor:pointer;}
+
+.copyrighted{float:right; text-align: right; font-size: 11px; font-family:'helveticaNeue', helvetica, arial, sans-serif; font-weight: 400; color: #ffffff; margin: 20px 0; display: inline-table; padding-right: 3%;}
+
+.bordered-foot {border-top: 1px solid #2993bc; margin-top: 20px; }
+
+
 
